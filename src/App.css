@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(170, 222, 255);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-page {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-image: url(./images/pattern-bg-desktop.png);
+  background-repeat: no-repeat;
+  height: 30vh;
+  color: #ffffff ;
+  padding: 5vh ;
 }
 
-.App-link {
-  color: #61dafb;
+.btn {
+  background-color: hsl(0, 0%, 17%);
+  width: 13%;
+  height: 100%;
+  background-image: url(./images/icon-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form {
+  margin-top: 20px;
+  height: 8vh;
+  width: 35vw;
+  border-radius: 15px ;
+  overflow: hidden;
+}
+
+.form-input {
+  width: 81.5%;
+  height: 100%;
+  padding-left: 20px;
+}
+
+.form-input::placeholder{
+  color: hsl(0, 0%, 59%) ;
+  font-family: "Rubik", sans-serif;
+}
+
+.form:focus {
+  border: none;
 }

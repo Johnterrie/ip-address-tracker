@@ -1,0 +1,33 @@
+.content-container {
+    position: absolute;
+    width: 70vw;
+    height: 10vw;
+    top: 40vh;
+    left: 50vw;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 0 70px 0 50px;
+}
+
+.main-div {
+    margin-top: 4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.divider {
+    border: 1px solid rgba(204, 204, 204, 0.433);
+    height: 70px;
+    
+}
+
+.div-container {
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.span-container {
+    font-size: 0.8rem;
+}

@@ -1,0 +1,6 @@
+.map-div {
+    height: 100vh;
+    border: 1px solid red;
+    z-index: -1;
+    object-fit: contain;
+}
