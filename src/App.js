@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="main-page">
+    // update
         <h1>IP Address Tracker</h1>
         <form className='form' action="">
           <input className='form-input' type="text" placeholder='Search for and IP address or domain' />
